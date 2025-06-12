@@ -11,5 +11,6 @@ namespace Ej1Practica2
         public int dni {  get; set; }
         public string nombre { get; set; }
         public string email { get; set; }
+        public Venta Venta { get; set; }
     }
 }

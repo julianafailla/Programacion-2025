@@ -8,5 +8,6 @@ namespace Ej1Practica2
 {
     public class Venta
     {
+        public float montoTotal {  get; set; }
     }
 }
