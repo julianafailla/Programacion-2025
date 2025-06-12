@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registrar persona</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+        <h1 id="titulo">Registrar persona</h1>
+    <form onsubmit="validacionNombreApellido(event)">
+        <label class="claseLabel" for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="Nombre" />
+        <br><br>
+
+        <label class="claseLabel" for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="Apellido" />
+        <br><br>
+
+        <label class="claseLabel">Sexo:</label>
+        <input type="radio" name="Sexo" value="Masculino"> Masculino
+        <input type="radio" name="Sexo" value="Femenino"> Femenino   
+        <br><br>
+
+        <label class="claseLabel" for="fechaNacimiento">Fecha de nacimiento:</label>
+        <input type="date" id="fechaNacimiento" name="FechaNacimiento" onchange="calcularEdad()"/>
+        <br><br>
+
+        <label class="claseLabel">Ciudad:</label>
+        <select name="Ciudad">
+            <option value="Ciudad1">Sunchales</option>
+            <option value="Ciudad2">Aldao</option>
+            <option value="Ciudad3">Ataliva</option>
+            <option value="Ciudad4">Rafaela</option>
+        </select>
+        <br><br>
+
+        <label class="claseLabel">Edad:</label>
+        <span id="edad"></span>
+        <br><br>
+
+        <button type="submit" class="guardar">Guardar</button>
+        <button type="reset" class="cancelar" onclick="alertaBotonCancelar()">Cancelar</button>
+    </form>
+    <br><br>
+    <img src="https://media.istockphoto.com/id/177267010/es/foto/blanco-rosas-como-tel%C3%B3n-de-fondo.jpg?s=612x612&w=0&k=20&c=zoG_BorXo8toIAFW0MngVsy4EwPjNQMnE2uE5pI6Umc=" width="300" height="200">
+    <script src="/ejer1/scrip.js"></script>
+</body>
+</html>

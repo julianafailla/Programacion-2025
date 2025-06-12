@@ -1,0 +1,20 @@
+#titulo{
+    color:black;
+    font-size: 30px;
+}
+input{
+    background-color:white;
+    border-color: black;
+    border-width: 1px;
+}
+#Login{
+    background-color:white;
+    border-color: black;
+}
+#olvidarContra{
+    color:rgb(116, 31, 116);
+    text-decoration: underline;
+}
+body{
+    background-color:lightseagreen;
+}

@@ -1,0 +1,24 @@
+button {
+    background-color:pink;
+    border-color: pink;
+}
+
+#titulo {
+    color: pink;
+    font-size: 30px;
+}
+
+.claseLabel {
+    color: lightblue;
+    font-size: 20px;
+}
+
+.guardar:hover {
+    background-color: green;
+    color: white;
+}
+
+.cancelar:hover {
+    background-color: red;
+    color: white;
+}
