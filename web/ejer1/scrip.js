@@ -33,9 +33,9 @@ function calcularEdad() {
         const hoy = new Date();
         const fechaNac = new Date(fechaNacimiento);
         let edad = hoy.getFullYear() - fechaNac.getFullYear();
-        const m = hoy.getMonth() - fechaNac.getMonth();
+        const mes = hoy.getMonth() - fechaNac.getMonth();
 
-        if (m < 0 || (m === 0 && hoy.getDate() < fechaNac.getDate())) {
+        if (mes < 0 || (mes === 0 && hoy.getDate() < fechaNac.getDate())) {
              edad--;
          }
 
